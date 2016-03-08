@@ -1,0 +1,24 @@
+{
+  "name": "intraspacedesign.net",
+  "version": "0.0.0",
+  "description": "Intra Space Design LLC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intraspacedesign/intraspacedesign.net.git"
+  },
+  "keywords": [
+    "Intra",
+    "Space",
+    "Design"
+  ],
+  "author": "Joshua L Geschwendt <joshua@geschwendt.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/intraspacedesign/intraspacedesign.net/issues"
+  },
+  "homepage": "https://github.com/intraspacedesign/intraspacedesign.net#readme"
+}
