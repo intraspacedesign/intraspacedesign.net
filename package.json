@@ -33,6 +33,9 @@
     "browser-sync": "2.11.1",
     "del": "^2.2.0",
     "gulp": "gulpjs/gulp#56e3e56",
-    "gulp-load-plugins": "1.2.0"
+    "gulp-load-plugins": "1.2.0",
+    "gulp-sass": "2.2.0",
+    "gulp-scss-lint": "0.3.9",
+    "gulp-sourcemaps": "1.6.0"
   }
 }
