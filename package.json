@@ -4,6 +4,10 @@
   "description": "Intra Space Design LLC",
   "main": "index.js",
   "scripts": {
+    "build:gulp": "tsc --project tools/gulpfile/",
+    "develop": "npm run build:gulp && npm start",
+    "gulp": "node node_modules/gulp/bin/gulp.js",
+    "start": "npm run gulp -- serve",
     "test": "echo \"Error: no test specified\" && exit 1",
     "update:src": "cd src/ && git checkout dev && git pull && cd ../"
   },
@@ -21,5 +25,14 @@
   "bugs": {
     "url": "https://github.com/intraspacedesign/intraspacedesign.net/issues"
   },
-  "homepage": "https://github.com/intraspacedesign/intraspacedesign.net#readme"
+  "homepage": "https://github.com/intraspacedesign/intraspacedesign.net#readme",
+  "dependencies": {
+    "fg-loadcss": "1.2.0"
+  },
+  "devDependencies": {
+    "browser-sync": "2.11.1",
+    "del": "^2.2.0",
+    "gulp": "gulpjs/gulp#56e3e56",
+    "gulp-load-plugins": "1.2.0"
+  }
 }
